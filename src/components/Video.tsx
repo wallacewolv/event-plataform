@@ -3,6 +3,7 @@ import { CaretRight, DiscordLogo, FileArrowDown, Image, Lightning } from 'phosph
 
 import '@vime/core/themes/default.css';
 import { useGetLessonBySlugQuery } from '../graphql/generated';
+import { Footer } from './Footer';
 
 interface VideoProps {
   lessonSlug: string;
